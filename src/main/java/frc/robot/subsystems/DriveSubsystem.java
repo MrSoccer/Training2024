@@ -62,6 +62,7 @@ public class DriveSubsystem extends SubsystemBase {
             leftMotor.getEncoder().getPosition(),
             rightMotor.getEncoder().getPosition());
 
+    // cedar is cool
     if (RobotBase.isSimulation()) { // If our robot is simulated
       // This class simulates our drivetrain's motion around the field.
       m_drivetrainSimulator =
