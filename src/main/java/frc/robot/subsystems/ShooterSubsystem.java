@@ -21,6 +21,7 @@ public class ShooterSubsystem extends SubsystemBase {
 
     private final int MOTOR_ID = 20;
 
+    // this is a constructor
     public ShooterSubsystem() {
         motor = new CANSparkMax(MOTOR_ID, MotorType.kBrushless);
         motorSim = new FlywheelSim(
