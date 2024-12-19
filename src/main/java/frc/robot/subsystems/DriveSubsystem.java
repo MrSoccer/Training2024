@@ -2,6 +2,12 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
+// my name is audrey smith Tessa is not sigma jk  :(
+//help
+
+//Tessa was here!
+
+
 package frc.robot.subsystems;
 
 import com.revrobotics.CANSparkMax;
@@ -62,6 +68,7 @@ public class DriveSubsystem extends SubsystemBase {
             leftMotor.getEncoder().getPosition(),
             rightMotor.getEncoder().getPosition());
 
+    // cedar is cool
     if (RobotBase.isSimulation()) { // If our robot is simulated
       // This class simulates our drivetrain's motion around the field.
       m_drivetrainSimulator =

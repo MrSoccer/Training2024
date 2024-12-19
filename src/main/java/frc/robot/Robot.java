@@ -2,16 +2,18 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 // VROOOMMMMMMMMMMMMM GOOOOOOOOOOO YAYAYAY
+//Enoch wuz here
+
 package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.simulation.BatterySim;
 import edu.wpi.first.wpilibj.simulation.RoboRioSim;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
-
+// tessa is an opp
 /**
  * This is a sample program to demonstrate the use of state-space classes in robot simulation. This
- * robot has a flywheel, elevator, arm and differential drivetrain, and interfaces with the sim
+ * robotgit ad has a flywheel, elevator, arm and differential drivetrain, and interfaces with the sim
  * GUI's {@link edu.wpi.first.wpilibj.simulation.Field2d} class.
  */
 public class Robot extends TimedRobot {
